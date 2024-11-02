@@ -1,11 +1,7 @@
 # [Alembic](https://alembic.darn.es/)
 [![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
 
-⚗ Hello World.
-
-![Screenshot](https://raw.githubusercontent.com/daviddarnes/alembic/master/screenshot.png)
-
-[<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
+Hello World.
 
 ## Contents
 - [About](#about)
@@ -26,7 +22,7 @@
 
 ## About
 
-**Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate theme is designed to get rolling immediately. Install it, configure it, tweak it, push it.**
+**I'm a try**
 
 ## Features
 
