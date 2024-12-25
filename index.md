@@ -1,14 +1,14 @@
 ---
 title: "*C"
 feature_text: |
-  ## Hey, I'm XC.
-  V●ω●V
+  ## Hey, I'm XC. {: style="color: white"}
+  V●ω●V {: style="color: white"}
 feature_image: "/assets/DSC_5159.JPG"
 excerpt: "Welcome to my personal website"
 ---
 Welcome to my personal blog.
 
-{% include button.html text="To BIT" icon="link" link="https://www.bit.edu.cn" color="#f68140" %}
+{% include button.html text="To BIT" icon="link" link="https://www.bit.edu.cn" color="#f68140" %} {% include button.html text="My Github" icon="github" link="https://github.com/zhouxc26" color="#24292f" %}
 
 ## About me
 
