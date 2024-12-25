@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang }}">
 
   <head>
     <!-- General meta -->
@@ -43,6 +43,8 @@
     {% include site-fonts.html %}
 
     {% include site-before-start.html %}
+
+    <title>{{ site.title }}</title>
   </head>
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
