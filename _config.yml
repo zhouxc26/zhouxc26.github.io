@@ -1,28 +1,46 @@
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site favicons & manifest icons
-# 9. Site navigation
+# Basic site settings
+title: "*C"
+description: "I'm a BITer, and this is my personal page."
+lang: en-GB
+encoding: utf-8
+baseurl: ""
+email: "zhouxc26@gmail.com"
+repo: "https://github.com/zhouxc26"
 
-# 1. Files excluded from Jekyll builds
-exclude:
-- README.md
-- CODE_OF_CONDUCT.md
-- CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- alembic-jekyll-theme.gemspec
-- .jekyll-cache
+# Theme settings
+logo: "/assets/logos/logo.ico"
+css_inline: true
 
-# 2. Installed Gems
+# Navigation
+navigation_header:
+- title: Home
+  url: /
+
+navigation_footer:
+- title: Repository link
+  url: https://github.com/zhouxc26/zhouxc26.github.io
+
+# Social and sharing
+social_links:
+  GitHub: https://github.com/zhouxc26
+
+sharing_links:
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
+
+# Favicons
+favicons:
+  16: '/assets/logos/logo.ico'
+  32: '/assets/logos/logo.ico'
+  96: '/assets/logos/logo.ico'
+  120: '/assets/logos/logo.ico'
+  144: '/assets/logos/logo.ico'
+  180: '/assets/logos/logo.ico'
+  512: '/assets/logos/logo.ico'
+  1024: '/assets/logos/logo.ico'
+
+# Jekyll settings
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
@@ -34,19 +52,13 @@ plugins:
 - jekyll-include-cache
 - jemoji
 
-# 3. Gem settings
-paginate: 2
-paginate_path: blog/page:num
-jekyll-mentions: https://twitter.com
-
-# 4. Jekyll settings
 sass:
   style: compressed
 permalink: pretty
 excerpt_separator: <!-- more -->
 timezone: Europe/London
 
-# 5. Collections
+# Collections and defaults
 collections:
   posts:
     title: Posts
@@ -56,7 +68,6 @@ collections:
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
 
-# 6. Jekyll collections settings
 defaults:
   -
     scope:
@@ -76,47 +87,27 @@ defaults:
     values:
       layout: page
 
-# 7. Site settings
-encoding: utf-8
-lang: en-GB
-title: "*C"
-logo: "/assets/logos/logo.ico"
-description: "I'm a BITer, and this is my personal page."
-baseurl: ""
-repo: "https://github.com/zhouxc26"
-email: "zhouxc26@gmail.com"
-css_inline: true
+# Build settings
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
 
-# 8. Site favicons & manifest icons
-favicons:
-  16: '/assets/logos/logo.ico'
-  32: '/assets/logos/logo.ico'
-  96: '/assets/logos/logo.ico'
-  120: '/assets/logos/logo.ico'
-  144: '/assets/logos/logo.ico'
-  180: '/assets/logos/logo.ico'
-  512: '/assets/logos/logo.ico'
-  1024: '/assets/logos/logo.ico'
-
-# 9. Site navigation
-navigation_header:
-- title: Home
-  url: /
-
-navigation_footer:
-- title: Repository link
-  url: https://github.com/zhouxc26/zhouxc26.github.io
-
-social_links:
-  GitHub: https://github.com/zhouxc26
-
-sharing_links:
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
-  Email: true
-
+# Fonts
 fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
     - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+
+# Plugin settings
+paginate: 2
+paginate_path: blog/page:num
+jekyll-mentions: https://twitter.com
