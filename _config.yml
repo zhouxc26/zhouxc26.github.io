@@ -1,6 +1,6 @@
 # Basic site settings
 title: "*C"
-description: "I'm a BITer, and this is my personal page."
+# description: "I'm a BITer, and this is my personal page."
 lang: en-GB
 encoding: utf-8
 baseurl: ""
