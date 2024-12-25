@@ -12,15 +12,12 @@
 
     {% if page.collectionpage %}
       {% seo title=false %}
-
-      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-      <title>{{ collectiondata.title }} - {{ site.title }}</title>
-      <meta property="og:title" content="{{ collectiondata.title }}">
-      <meta name="description" content="{{ collectiondata.description }}">
-      <meta property="og:description" content="{{ collectiondata.description }}">
+      <title>{{ site.title }}</title>
     {% else %}
-      {% seo %}
+      <title>{{ site.title }}</title>
+      {% seo title=false %}
     {% endif %}
+
     {% if site.fonts.preconnect_urls %}
       {% for url in site.fonts.preconnect_urls %}
         <link rel="preconnect" href="{{ url }}" crossorigin />
@@ -43,8 +40,6 @@
     {% include site-fonts.html %}
 
     {% include site-before-start.html %}
-
-    <title>{{ site.title }}</title>
   </head>
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
