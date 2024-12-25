@@ -1,8 +1,8 @@
 ---
 title: "*C"
 feature_text: |
-  ## Hey, I'm XC. {: style="color: white"}
-  V●ω●V {: style="color: white"}
+  ## Hey, I'm XC.
+  V●ω●V
 feature_image: "/assets/DSC_5159.JPG"
 excerpt: "Welcome to my personal website"
 ---

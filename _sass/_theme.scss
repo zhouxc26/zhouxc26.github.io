@@ -56,6 +56,13 @@ body {
     @include flex-direction(column);
     @include justify-content(center);
   }
+
+  .typeset {
+    color: #ffffff;
+    h2 {
+      color: #ffffff;
+    }
+  }
 }
 
 .logo {
